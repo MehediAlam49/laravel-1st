@@ -30,9 +30,10 @@
                 </div>
             @endif
 
+            <h1>This is my home page.</h1>
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="{{url('about')}} ">About</a></li>
+                <li><a href="{{url('contact')}}">Contact</a></li>
             </ul>
 
     </body>
