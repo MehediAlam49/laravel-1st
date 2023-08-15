@@ -27,6 +27,7 @@ Route::get('/about', function () {
 // });
 
 Route::view('/contact', '/details/contact');
+Route::view('/country', '/country')->middleware('country');
 
 
 
